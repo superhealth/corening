@@ -1,8 +1,8 @@
-# [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
+# [Minimal Mistakes Jekyll theme](https://superhealth.github.io/corening/)
 
-[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)
+[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/superhealth/corening/master/LICENSE)
 [![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.6-blue.svg)](https://jekyllrb.com/)
-[![Ruby gem](https://img.shields.io/gem/v/minimal-mistakes-jekyll.svg)](https://rubygems.org/gems/minimal-mistakes-jekyll)
+[![Ruby gem](https://img.shields.io/gem/v/corening-jekyll.svg)](https://rubygems.org/gems/corening-jekyll)
 [![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/mmistakes)
 
 Minimal Mistakes is a flexible two-column Jekyll theme, perfect for building personal sites, blogs, and portfolios. As the name implies, styling is purposely minimalistic to be enhanced and customized by you :smile:.
@@ -17,7 +17,7 @@ Minimal Mistakes is a flexible two-column Jekyll theme, perfect for building per
 
 [![Minimal Mistakes live preview][2]][1]
 
-[1]: https://mmistakes.github.io/minimal-mistakes/
+[1]: https://superhealth.github.io/corening/
 [2]: screenshot.png (live preview)
 
 ![layout examples](screenshot-layouts.png)
@@ -30,7 +30,7 @@ Minimal Mistakes is a flexible two-column Jekyll theme, perfect for building per
 - Nine different skins (color variations).
 - Several responsive layout options (single, archive index, search, splash, and paginated home page).
 - Optimized for search engines with support for [Twitter Cards](https://dev.twitter.com/cards/overview) and [Open Graph](http://ogp.me/) data.
-- Optional [header images](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#headers), [custom sidebars](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#sidebars), [table of contents](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#table-of-contents), [galleries](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#gallery), related posts, [breadcrumb links](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#breadcrumb-navigation-beta), [navigation lists](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#navigation-list), and more.
+- Optional [header images](https://superhealth.github.io/corening/docs/layouts/#headers), [custom sidebars](https://superhealth.github.io/corening/docs/layouts/#sidebars), [table of contents](https://superhealth.github.io/corening/docs/helpers/#table-of-contents), [galleries](https://superhealth.github.io/corening/docs/helpers/#gallery), related posts, [breadcrumb links](https://superhealth.github.io/corening/docs/configuration/#breadcrumb-navigation-beta), [navigation lists](https://superhealth.github.io/corening/docs/helpers/#navigation-list), and more.
 - Commenting support (powered by [Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), Google+, [Discourse](https://www.discourse.org/), static-based via [Staticman](https://staticman.net/), and [utterances](https://utteranc.es/)).
 - [Google Analytics](https://www.google.com/analytics/) support.
 - UI localized text in English (default), Brazilian Portuguese (Português brasileiro), Chinese, Danish, Dutch, French (Français), German (Deutsch), Greek, Hindi (हिंदी), Hungarian, Indonesian, Italian (Italiano), Japanese, Korean, Malayalam, Nepali (Nepalese), Persian (فارسی), Polish, Punjabi (ਪੰਜਾਬੀ), Romanian, Russian, Slovak, Spanish (Español), Swedish, Turkish (Türkçe), and Vietnamese.
@@ -41,15 +41,15 @@ This theme comes in nine different skins (including the default one).
 
 | `air` | `contrast` | `dark` |
 | --- | --- | --- |
-| ![air skin](https://mmistakes.github.io/minimal-mistakes/assets/images/air-skin-archive.png) | ![contrast skin](https://mmistakes.github.io/minimal-mistakes/assets/images/contrast-skin-archive.png) | ![dark skin](https://mmistakes.github.io/minimal-mistakes/assets/images/dark-skin-archive.png) |
+| ![air skin](https://superhealth.github.io/corening/assets/images/air-skin-archive.png) | ![contrast skin](https://superhealth.github.io/corening/assets/images/contrast-skin-archive.png) | ![dark skin](https://superhealth.github.io/corening/assets/images/dark-skin-archive.png) |
 
 | `dirt` | `mint` | `sunrise` |
 | --- | --- | --- |
-| ![dirt skin](https://mmistakes.github.io/minimal-mistakes/assets/images/dirt-skin-archive.png) | ![mint skin](https://mmistakes.github.io/minimal-mistakes/assets/images/mint-skin-archive.png) | ![sunrise skin](https://mmistakes.github.io/minimal-mistakes/assets/images/sunrise-skin-archive.png) |
+| ![dirt skin](https://superhealth.github.io/corening/assets/images/dirt-skin-archive.png) | ![mint skin](https://superhealth.github.io/corening/assets/images/mint-skin-archive.png) | ![sunrise skin](https://superhealth.github.io/corening/assets/images/sunrise-skin-archive.png) |
 
 | `aqua` | `neon` | `plum` |
 | --- | --- | --- |
-| ![aqua skin](https://mmistakes.github.io/minimal-mistakes/assets/images/aqua-skin-archive.png) | ![neon skin](https://mmistakes.github.io/minimal-mistakes/assets/images/neon-skin-archive.png) | ![plum skin](https://mmistakes.github.io/minimal-mistakes/assets/images/plum-skin-archive.png) |
+| ![aqua skin](https://superhealth.github.io/corening/assets/images/aqua-skin-archive.png) | ![neon skin](https://superhealth.github.io/corening/assets/images/neon-skin-archive.png) | ![plum skin](https://superhealth.github.io/corening/assets/images/plum-skin-archive.png) |
 
 ## Demo pages
 
@@ -65,14 +65,14 @@ This theme comes in nine different skins (including the default one).
 
 Additional sample posts are available under [posts archive][year-archive] on the demo site. Source files for these (and the entire demo site) can be found in [`/docs`](docs).
 
-[header-image-post]: https://mmistakes.github.io/minimal-mistakes/layout-header-image-text-readability/
-[gallery-post]: https://mmistakes.github.io/minimal-mistakes/post%20formats/post-gallery/
-[html-tags-post]: https://mmistakes.github.io/minimal-mistakes/markup/markup-html-tags-and-formatting/
-[syntax-post]: https://mmistakes.github.io/minimal-mistakes/markup-syntax-highlighting/
-[sample-collection]: https://mmistakes.github.io/minimal-mistakes/recipes/chocolate-chip-cookies/
-[categories-archive]: https://mmistakes.github.io/minimal-mistakes/categories/
-[tags-archive]: https://mmistakes.github.io/minimal-mistakes/tags/
-[year-archive]: https://mmistakes.github.io/minimal-mistakes/year-archive/
+[header-image-post]: https://superhealth.github.io/corening/layout-header-image-text-readability/
+[gallery-post]: https://superhealth.github.io/corening/post%20formats/post-gallery/
+[html-tags-post]: https://superhealth.github.io/corening/markup/markup-html-tags-and-formatting/
+[syntax-post]: https://superhealth.github.io/corening/markup-syntax-highlighting/
+[sample-collection]: https://superhealth.github.io/corening/recipes/chocolate-chip-cookies/
+[categories-archive]: https://superhealth.github.io/corening/categories/
+[tags-archive]: https://superhealth.github.io/corening/tags/
+[year-archive]: https://superhealth.github.io/corening/year-archive/
 
 ## Installation
 
@@ -126,17 +126,17 @@ To install:
    bundle
    ```
 
-4. Add `remote_theme: "mmistakes/minimal-mistakes@4.15.2"` to your `_config.yml` file. Remove any other `theme:` or `remote_theme:` entry.
+4. Add `remote_theme: "superhealth/corening@4.15.2"` to your `_config.yml` file. Remove any other `theme:` or `remote_theme:` entry.
 
 ## Usage
 
-For detailed instructions on how to configure, customize, add/migrate content, and more read the [theme's documentation](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/).
+For detailed instructions on how to configure, customize, add/migrate content, and more read the [theme's documentation](https://superhealth.github.io/corening/docs/quick-start-guide/).
 
 ---
 
 ## Contributing
 
-Having trouble working with the theme? Found a typo in the documentation? Interested in adding a feature or [fixing a bug](https://github.com/mmistakes/minimal-mistakes/issues)? Then by all means [submit an issue](https://github.com/mmistakes/minimal-mistakes/issues/new) or [pull request](https://help.github.com/articles/using-pull-requests/). If this is your first pull request, it may be helpful to read up on the [GitHub Flow](https://guides.github.com/introduction/flow/) first.
+Having trouble working with the theme? Found a typo in the documentation? Interested in adding a feature or [fixing a bug](https://github.com/superhealth/corening/issues)? Then by all means [submit an issue](https://github.com/superhealth/corening/issues/new) or [pull request](https://help.github.com/articles/using-pull-requests/). If this is your first pull request, it may be helpful to read up on the [GitHub Flow](https://guides.github.com/introduction/flow/) first.
 
 Minimal Mistakes has been designed as a base for you to customize and fit your site's unique needs. Please keep this in mind when requesting features and/or submitting pull requests. If it's not something that most people will use, I probably won't consider it. When in doubt ask. 
 

@@ -15,7 +15,7 @@ To check which version you are currently using, view the source of your built si
   Minimal Mistakes Jekyll Theme 4.15.2 by Michael Rose
   Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
-  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+  https://github.com/superhealth/corening/blob/master/LICENSE
 -->
 ```
 
@@ -25,19 +25,19 @@ At the top of every `.html` file, `/assets/css/main.css`, and `/assets/js/main.m
 
 Simply run `bundle update` if you're using Bundler (have a `Gemfile`) or `gem update minimal-mistakes-jekyll` if you're not.
 
-When using Bundler you can downgrade or lock the theme to a specific release ([tag](https://github.com/mmistakes/minimal-mistakes/tags)), branch, or commit. Instead of `gem "minimal-mistakes-jekyll"` you'd add the following to your `Gemfile`:
+When using Bundler you can downgrade or lock the theme to a specific release ([tag](https://github.com/superhealth/corening/tags)), branch, or commit. Instead of `gem "minimal-mistakes-jekyll"` you'd add the following to your `Gemfile`:
 
 ```ruby
-gem "minimal-mistakes-jekyll", :git => "https://github.com/mmistakes/minimal-mistakes.git", :tag => "4.15.2"
+gem "minimal-mistakes-jekyll", :git => "https://github.com/superhealth/corening.git", :tag => "4.15.2"
 ```
 
 For more information on [installing gems from git repositories](http://bundler.io/v1.16/guides/git.html) consult Bundler's documentation.
 
 ## Remote theme
 
-When setting `remote_theme: "mmistakes/minimal-mistakes@4.15.2"` in your `_config.yml` you may also optionally specify a branch, [tag](https://github.com/mmistakes/minimal-mistakes/tags), or commit to use by appending an @ and the Git ref.
+When setting `remote_theme: "superhealth/corening@4.15.2"` in your `_config.yml` you may also optionally specify a branch, [tag](https://github.com/superhealth/corening/tags), or commit to use by appending an @ and the Git ref.
 
-For example you can roll back to release 4.8.1 with `mmistakes/minimal-mistakes@4.8.1` or a specific commit with `mmistakes/minimal-mistakes@bbf3cbc5fd64a3e1885f3f99eb90ba92af84063d`). For a complete list of theme versions consult the [releases page](https://github.com/mmistakes/minimal-mistakes/releases).
+For example you can roll back to release 4.8.1 with `superhealth/corening@4.8.1` or a specific commit with `superhealth/corening@bbf3cbc5fd64a3e1885f3f99eb90ba92af84063d`). For a complete list of theme versions consult the [releases page](https://github.com/superhealth/corening/releases).
 
 To update the theme on GitHub Pages you'll need to push up a commit to force a rebuild. An empty commit works well if you don't have anything to push at the moment:
 

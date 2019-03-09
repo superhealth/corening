@@ -74,9 +74,9 @@ To install as a remote theme:
    bundle
    ```
 
-4. Add `remote_theme: "mmistakes/minimal-mistakes@4.15.2"` to your `_config.yml` file. Remove any other `theme:` or `remote_theme:` entry.
+4. Add `remote_theme: "superhealth/corening@4.15.2"` to your `_config.yml` file. Remove any other `theme:` or `remote_theme:` entry.
 
-You may also optionally specify a branch, [tag](https://github.com/mmistakes/minimal-mistakes/tags), or commit to use by appending an @ and the Git ref (e.g., `mmistakes/minimal-mistakes@4.9.0` or `mmistakes/minimal-mistakes@bbf3cbc5fd64a3e1885f3f99eb90ba92af84063d`). This is useful when rolling back to older versions of the theme. If you don't specify a Git ref, the latest on `master` will be used.
+You may also optionally specify a branch, [tag](https://github.com/superhealth/corening/tags), or commit to use by appending an @ and the Git ref (e.g., `superhealth/corening@4.9.0` or `superhealth/corening@bbf3cbc5fd64a3e1885f3f99eb90ba92af84063d`). This is useful when rolling back to older versions of the theme. If you don't specify a Git ref, the latest on `master` will be used.
 
 ---
 
@@ -91,7 +91,7 @@ If you're hosting several Jekyll based sites under the same GitHub username you 
 
 You can also install the theme by copying all of the theme files[^structure] into your project.
 
-To do so fork the [Minimal Mistakes theme](https://github.com/mmistakes/minimal-mistakes/fork), then rename the repo to **USERNAME.github.io** --- replacing **USERNAME** with your GitHub username.
+To do so fork the [Minimal Mistakes theme](https://github.com/superhealth/corening/fork), then rename the repo to **USERNAME.github.io** --- replacing **USERNAME** with your GitHub username.
 
 <figure>
   <img src="{{ '/assets/images/mm-theme-fork-repo.png' | relative_url }}" alt="fork Minimal Mistakes">
@@ -119,27 +119,27 @@ If you forked or downloaded the `minimal-mistakes-jekyll` repo you can safely re
 - `screenshot-layouts.png`
 - `screenshot.png`
 
-**Note:** If forking the theme be sure to update `Gemfile` as well. The one found at the root of the project is for building the theme's Ruby gem and is missing dependencies. To properly setup a [`Gemfile`](https://github.com/mmistakes/minimal-mistakes/blob/master/docs/Gemfile) with the theme, consult the "[Install Dependencies](https://mmistakes.github.io/minimal-mistakes/docs/installation/#install-dependencies)" section.
+**Note:** If forking the theme be sure to update `Gemfile` as well. The one found at the root of the project is for building the theme's Ruby gem and is missing dependencies. To properly setup a [`Gemfile`](https://github.com/superhealth/corening/blob/master/docs/Gemfile) with the theme, consult the "[Install Dependencies](https://superhealth.github.io/corening/docs/installation/#install-dependencies)" section.
 {: .notice--warning}
 
 ## Setup Your Site
 
 Depending on the path you took installing Minimal Mistakes you'll setup things a little differently.
 
-**ProTip:** The source code and content files for this site can be found in the [`/docs` folder](https://github.com/mmistakes/minimal-mistakes/tree/master/docs) if you want to copy or learn from them.
+**ProTip:** The source code and content files for this site can be found in the [`/docs` folder](https://github.com/superhealth/corening/tree/master/docs) if you want to copy or learn from them.
 {: .notice--info}
 
 ### Starting Fresh
 
-Starting with an empty folder and `Gemfile` you'll need to copy or re-create this [default `_config.yml`](https://github.com/mmistakes/minimal-mistakes/blob/master/_config.yml) file. For a full explanation of every setting be sure to read the [**Configuration**]({{ "/docs/configuration/" | relative_url }}) section.
+Starting with an empty folder and `Gemfile` you'll need to copy or re-create this [default `_config.yml`](https://github.com/superhealth/corening/blob/master/_config.yml) file. For a full explanation of every setting be sure to read the [**Configuration**]({{ "/docs/configuration/" | relative_url }}) section.
 
 From `v4.5.0` onwards, Minimal Mistakes theme-gem comes bundled with the necessary data files and will automatically use them via the [`jekyll-data`](https://github.com/ashmaroli/jekyll-data) plugin. So you no longer need to maintain a copy of these data files at your project directory.
 
 However like all other bundled files, you'll need to create and edit these data files to customize them.
 The bundled data files are:
 
-- [`_data/ui-text.yml`](https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml) - UI text [documentation]({{ "/docs/ui-text/" | relative_url }})
-- [`_data/navigation.yml`](https://github.com/mmistakes/minimal-mistakes/blob/master/_data/navigation.yml) - navigation [documentation]({{ "/docs/navigation/" | relative_url }})
+- [`_data/ui-text.yml`](https://github.com/superhealth/corening/blob/master/_data/ui-text.yml) - UI text [documentation]({{ "/docs/ui-text/" | relative_url }})
+- [`_data/navigation.yml`](https://github.com/superhealth/corening/blob/master/_data/navigation.yml) - navigation [documentation]({{ "/docs/navigation/" | relative_url }})
 
 ### Starting from `jekyll new`
 
@@ -147,7 +147,7 @@ Scaffolding out a site with the `jekyll new` command requires you to modify a fe
 
 Edit `_config.yml`. Then:
 
-- Replace `<site root>/index.md` with a modified [Minimal Mistakes `index.html`](https://github.com/mmistakes/minimal-mistakes/blob/master/index.html). Be sure to enable pagination if using the [`home` layout]({{ "/docs/layouts/#home-page" | relative_url }}) by adding the necessary lines to **_config.yml**.
+- Replace `<site root>/index.md` with a modified [Minimal Mistakes `index.html`](https://github.com/superhealth/corening/blob/master/index.html). Be sure to enable pagination if using the [`home` layout]({{ "/docs/layouts/#home-page" | relative_url }}) by adding the necessary lines to **_config.yml**.
 - Change `layout: post` in `_posts/0000-00-00-welcome-to-jekyll.markdown` to `layout: single`.
 - Remove `about.md`, or at the very least change `layout: page` to `layout: single` and remove references to `icon-github.html` (or [copy to your `_includes`](https://github.com/jekyll/minima/tree/master/_includes) if using it).
 
@@ -169,7 +169,7 @@ Start by removing the following folders and any files within them:
 
 You won't need these anymore as they're bundled with the theme gem --- unless you intend to [override them](http://jekyllrb.com/docs/themes/#overriding-theme-defaults).
 
-**Note:** When clearing out the `assets` folder be sure to leave any files you've added and need. This includes images, CSS, or JavaScript that aren't already [bundled in the theme](https://github.com/mmistakes/minimal-mistakes/tree/master/assets). 
+**Note:** When clearing out the `assets` folder be sure to leave any files you've added and need. This includes images, CSS, or JavaScript that aren't already [bundled in the theme](https://github.com/superhealth/corening/tree/master/assets). 
 {: .notice--warning}
 
 From `v4.5.0` onwards, you don't have to maintain a copy of the default data files viz. `_data/ui-text.yml` and `_data/navigation.yml` either.

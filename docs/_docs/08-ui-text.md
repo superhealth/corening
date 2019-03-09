@@ -7,7 +7,7 @@ last_modified_at: 2019-01-23T20:22:49-05:00
 
 Text for UI elements, `_layouts`, and `_includes` grouped together as a set of translation keys. This is by no means a full-on i18n solution, but it does help make customizing theme text a bit easier.
 
-The English[^yaml-anchors] main keys in [`_data/ui-text.yml`](https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml) are translated in the following languages:
+The English[^yaml-anchors] main keys in [`_data/ui-text.yml`](https://github.com/superhealth/corening/blob/master/_data/ui-text.yml) are translated in the following languages:
 
 - Brazilian Portuguese (Português brasileiro)
 - Chinese

@@ -6,7 +6,7 @@ last_modified_at: 2019-01-15T08:31:44-05:00
 toc: true
 ---
 
-Settings that affect your entire site can be changed in [Jekyll's configuration file](https://jekyllrb.com/docs/configuration/): `_config.yml`, found in the root of your project. If you don't have this file you'll need to copy or create one using the theme's [default `_config.yml`](https://github.com/mmistakes/minimal-mistakes/blob/master/_config.yml) as a base.
+Settings that affect your entire site can be changed in [Jekyll's configuration file](https://jekyllrb.com/docs/configuration/): `_config.yml`, found in the root of your project. If you don't have this file you'll need to copy or create one using the theme's [default `_config.yml`](https://github.com/superhealth/corening/blob/master/_config.yml) as a base.
 
 **Note:** for technical reasons, `_config.yml` is NOT reloaded automatically when used with `jekyll serve`. If you make any changes to this file, please restart the server process for them to be applied.
 {: .notice--warning}
@@ -31,7 +31,7 @@ Easily change the color scheme of the theme using one of the provided "skins":
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 ```
 
-**Note:** If you have made edits to the theme's CSS files be sure to update [`/assets/css/main.scss`](https://github.com/mmistakes/minimal-mistakes/blob/master/assets/css/main.scss) to include `@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin` before the `minimal-mistakes` import.
+**Note:** If you have made edits to the theme's CSS files be sure to update [`/assets/css/main.scss`](https://github.com/superhealth/corening/blob/master/assets/css/main.scss) to include `@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin` before the `minimal-mistakes` import.
 {: .notice--warning}
 
 #### Air skin: `air`
@@ -162,7 +162,7 @@ GitHub Pages now [forces `https://` for new sites](https://help.github.com/artic
 
 This little option causes all kinds of confusion in the Jekyll community. If you're not hosting your site as a GitHub Pages Project or in a subfolder (eg: `/blog`), then don't mess with it.
 
-In the case of the Minimal Mistakes demo site it's hosted on GitHub at <https://mmistakes.github.io/minimal-mistakes>. To correctly set this base path I'd use `url: "https://mmistakes.github.io"` and `baseurl: "/minimal-mistakes"`.
+In the case of the Minimal Mistakes demo site it's hosted on GitHub at <https://superhealth.github.io/corening>. To correctly set this base path I'd use `url: "https://mmistakes.github.io"` and `baseurl: "/corening"`.
 
 For more information on how to properly use `site.url` and `site.baseurl` as intended by the Jekyll maintainers, check [Parker Moore's post on the subject](https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/).
 
@@ -177,7 +177,7 @@ Add your repository name with organization to your site's configuration file, `_
 repository: "username/repo-name"
 ```
 
-"NWO" stands for "name with owner." It is GitHub lingo for the username of the owner of the repository plus a forward slash plus the name of the repository, e.g. `mmistakes/minimal-mistakes`, where **mmistakes** is the owner and **minimal-mistakes** is the repository name.
+"NWO" stands for "name with owner." It is GitHub lingo for the username of the owner of the repository plus a forward slash plus the name of the repository, e.g. `superhealth/corening`, where **mmistakes** is the owner and **minimal-mistakes** is the repository name.
 
 Your `site.github.*` fields should fill in like normal. If you run Jekyll with the --verbose flag, you should be able to see all the API calls made.
 
@@ -356,7 +356,7 @@ comments:
 To use utterances you will need to [install the app](https://github.com/apps/utterances) to your GitHub repository by adding the following to `_config.yml`:
 
 ```yaml
-repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository: # GitHub username/repo-name e.g. "superhealth/corening"
 ```
 
 **Note:** Make sure the repo is public, otherwise your readers will not be able to view the issues/comments. The [issues feature](https://guides.github.com/features/issues/) also needs to be active on your repo.
@@ -397,7 +397,7 @@ Due to the [support for GitLab](https://github.com/eduardoboucas/staticman/pull/
 
 ```yaml
 # _config.yml (defaults)
-repository  : # Git username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository  : # Git username/repo-name e.g. "superhealth/corening"
 comments:
   provider  : "staticman_v2"
   staticman:
@@ -407,7 +407,7 @@ comments:
 
 ###### Staticman v2
 
-Default settings have been provided in [`staticman.yml`](https://github.com/mmistakes/minimal-mistakes/blob/master/staticman.yml) and are commented to guide you through setup. View the [full list of configurations](https://staticman.net/docs/configuration).
+Default settings have been provided in [`staticman.yml`](https://github.com/superhealth/corening/blob/master/staticman.yml) and are commented to guide you through setup. View the [full list of configurations](https://staticman.net/docs/configuration).
 
 ```yaml
 # staticman.yml (defaults)
@@ -433,7 +433,7 @@ These settings need to be added to your `_config.yml` file as well:
 
 ```yaml
 # _config.yml (defaults)
-repository  : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository  : # GitHub username/repo-name e.g. "superhealth/corening"
 comments:
   provider  : "staticman_v2"
   staticman:
@@ -510,7 +510,7 @@ atom_feed:
   path: "http://feeds.feedburner.com/youFeedname"
 ```
 
-**Note:** By default the site feed is linked in two locations: inside the [`<head>` element](https://github.com/mmistakes/minimal-mistakes/blob/master/_includes/head.html) and at the bottom of every page in the [site footer](https://github.com/mmistakes/minimal-mistakes/blob/master/_includes/footer.html).
+**Note:** By default the site feed is linked in two locations: inside the [`<head>` element](https://github.com/superhealth/corening/blob/master/_includes/head.html) and at the bottom of every page in the [site footer](https://github.com/superhealth/corening/blob/master/_includes/footer.html).
 {: .notice--info}
 
 ### Site search
@@ -528,7 +528,7 @@ The default search uses [**Lunr**](https://lunrjs.com/) to build a search index 
 
 #### Algolia
 
-For faster and more relevant search ([see demo](https://mmistakes.github.io/minimal-mistakes-algolia-search/)):
+For faster and more relevant search ([see demo](https://superhealth.github.io/corening-algolia-search/)):
 
 1. Add the [`jekyll-algolia`](https://github.com/algolia/jekyll-algolia) gem to your `Gemfile`, in the `:jekyll_plugins` section.
 
@@ -898,7 +898,7 @@ defaults:
       layout: single
 ```
 
-And of course any default value can be overridden by settings in a post, page, or collection file. All you need to do is specify the settings in the YAML Front Matter. For more examples be sure to check out the demo site's [`_config.yml`](https://github.com/mmistakes/minimal-mistakes/blob/master/_config.yml).
+And of course any default value can be overridden by settings in a post, page, or collection file. All you need to do is specify the settings in the YAML Front Matter. For more examples be sure to check out the demo site's [`_config.yml`](https://github.com/superhealth/corening/blob/master/_config.yml).
 
 ## Outputting
 

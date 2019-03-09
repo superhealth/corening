@@ -9,8 +9,8 @@ about: "Having trouble working with the theme?"
   - Verify you have the latest versions of Jekyll and Minimal Mistakes 
     installed by running `bundle update`.
   - Thoroughly read the theme's documentation at
-    https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - Search all issues at https://github.com/mmistakes/minimal-mistakes/issues 
+    https://superhealth.github.io/corening/docs/quick-start-guide/
+  - Search all issues at https://github.com/superhealth/corening/issues 
     for solutions and to avoid duplication.
   - Ask for help at http://talk.jekyllrb.com/
   
