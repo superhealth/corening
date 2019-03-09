@@ -10,7 +10,7 @@ remote_theme             : "superhealth/corening"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings zh-CN
-locale                   : "en-US"
+locale                   : "zh-CN"
 title                    : "大道至精"
 title_separator          : "-"
 name                     : &name "大道至精" # &name is a YAML anchor which can be *referenced later

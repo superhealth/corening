@@ -49,8 +49,7 @@ $(document).ready(function() {
     // Update the button accordingly
     $btn.attr("count", numOfItems - numOfVisibleItems);
     if (numOfVisibleItems === numOfItems) {
-      // $btn.addClass("hidden");
-      $btn.removeClass("hidden");
+      $btn.addClass("hidden");
     } else {
       $btn.removeClass("hidden");
     }
