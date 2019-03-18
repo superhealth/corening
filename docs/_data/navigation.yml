@@ -20,13 +20,17 @@ foo:
 
 # main links
 main:
-  - title: "Quick-Start Guide"
+  - title: "主页"
     url: /docs/quick-start-guide/
-  - title: "关于"
+  - title: "编程基础"
     url: /about/
-  - title: "Sample Posts"
+  - title: "精学Java"
     url: /year-archive/
-  - title: "Sample Collections"
+  - title: "善用大数据"
+    url: /year-archive/
+  - title: "人工智能"
+    url: /year-archive/
+  - title: "利其器"
     url: /collection-archive/
   - title: "Terms &amp; Privacy Policy"
     url: /terms/

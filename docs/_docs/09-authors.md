@@ -14,8 +14,8 @@ To assign an author to a post or page that is different from the site author spe
 ```yaml
 # /_data/authors.yml
 
-Billy Rick:
-  name        : "Billy Rick"
+Corening:
+  name        : "Corening"
   bio         : "What do you want, jewels? I am a very extravagant man."
   avatar      : "/assets/images/bio-photo-2.jpg"
   links:
@@ -44,8 +44,8 @@ Cornelius Fiddlebone:
 
 **Step 2.** Assign one of the authors in `authors.yml` to a post or page you wish to override the `site.author` with. 
 
-Example: To assign `Billy Rick` as an author for a post the following YAML Front Matter would be applied:
+Example: To assign `Corening` as an author for a post the following YAML Front Matter would be applied:
 
 ```yaml
-author: Billy Rick
+author: Corening
 ```

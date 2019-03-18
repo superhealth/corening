@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 remote_theme             : "superhealth/corening"
-
+#theme                    : "minimal-mistakes-jekyll"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings zh-CN
@@ -19,7 +19,7 @@ url                      : https://mmistakes.github.io # the base hostname & pro
 baseurl                  : "/corening" # the subpath of your site, e.g. "/blog"
 repository               : "superhealth/corening"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : /assets/images/android-chrome-96x96.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -65,9 +65,9 @@ search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
 search_provider          : algolia # lunr (default), algolia
 algolia:
-  application_id         : QB6HVGBSBA # YOUR_APPLICATION_ID
-  index_name             : minimal_mistakes # YOUR_INDEX_NAME
-  search_only_api_key    : 9d5014e5bbc77372547bce778dfa5663 # YOUR_SEARCH_ONLY_API_KEY
+  application_id         : ZPG11YT1DR # YOUR_APPLICATION_ID
+  index_name             : corning # YOUR_INDEX_NAME
+  search_only_api_key    : 1b425918772a8463e6d1387bdb6d65a8 # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : true # true (default), false
   files_to_exclude:
     - _posts/2017-11-28-post-exclude-search.md
@@ -108,10 +108,10 @@ author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "/assets/images/corening.png"
   bio              : "我们总是老得太快，聪明得太迟！
-                      原因就是我们接触太多不必要的信息，其实只需要一条或两条信息我们就能了解一个事物，没必要把简单事情复杂化，大道至精"
+                      身陷信息大爆炸社会无法脱身；复杂事情简单化，大道至精，更多时间陪家人"
   location         : "China, SH"
   links:
-    - label: "Made Mistakes"
+    - label: "我的主页"
       icon: "fas fa-fw fa-link"
       url: "http://corening.com"
 #    - label: "Twitter"
