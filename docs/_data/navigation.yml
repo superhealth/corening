@@ -38,15 +38,15 @@ main:
 
 # documentation links
 docs:
-  - title: Getting Started
+  - title: 技能图
     children:
       - title: "Quick-Start Guide"
         url: /docs/quick-start-guide/
-      - title: "Structure"
-        url: /docs/structure/
-      - title: "Installation"
+      - title: "Java技能图"
+        url: /docs/java-skill-map/
+      - title: "大数据技能图"
         url: /docs/installation/
-      - title: "Upgrading"
+      - title: "AI技能图"
         url: /docs/upgrading/
   - title: Customization
     children:
